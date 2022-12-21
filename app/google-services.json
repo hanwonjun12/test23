@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "284984937253",
+    "project_id": "galpi-9a127",
+    "storage_bucket": "galpi-9a127.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:284984937253:android:daa786b7fe6097ffb4a8cc",
+        "android_client_info": {
+          "package_name": "com.example.galpi"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "284984937253-6j6slpjpkrc4gkdjacspqjdvua5b717k.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDd189EHsz5TioOnUr9nsj_hTo_kyqakWc"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "284984937253-6j6slpjpkrc4gkdjacspqjdvua5b717k.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

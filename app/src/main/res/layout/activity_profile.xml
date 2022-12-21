@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProfileActivity">
+
+
+    <TextView
+        android:id="@+id/title_my"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="12dp"
+        android:textColor="#476C21"
+        android:text="MY"
+        android:textStyle="bold"
+        android:textSize="30dp" />
+
+    <RelativeLayout
+        android:id="@+id/ProfileBox"
+        android:layout_marginTop="80dp"
+        android:layout_marginStart="50dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/title_my"
+        android:layout_centerHorizontal="true"
+        android:layout_centerVertical="true">
+
+        <TextView
+            android:id="@+id/User"
+            android:text="사용자 ID: "
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <TextView
+            android:id="@+id/UserID"
+            android:text="test@naver.com"
+            android:layout_below="@+id/User"
+            android:textSize="20dp"
+            android:textColor="@color/black"
+            android:textStyle="bold"
+            android:layout_marginTop="10dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content" />
+
+        <androidx.appcompat.widget.AppCompatButton
+            android:id="@+id/btn_logout"
+            android:layout_width="wrap_content"
+            android:layout_height="30dp"
+            android:layout_marginTop="20dp"
+            android:layout_alignLeft="@+id/UserID"
+            android:layout_weight="1"
+            android:background="@drawable/radius_grey"
+            android:text="로그아웃"
+            android:textAlignment="center"
+            android:textSize="15sp"
+            android:layout_below="@+id/UserID"/>
+
+
+        <!--<LinearLayout
+            android:id="@+id/ProfileButt"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/UserID"
+            android:layout_marginTop="40dp"
+            android:orientation="horizontal">
+
+            <androidx.appcompat.widget.AppCompatButton
+                android:id="@+id/likelistBut"
+                android:layout_width="wrap_content"
+                android:layout_height="30dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="@drawable/radius_grey"
+                android:text="좋아요 목록"
+                android:textAlignment="center"
+                android:textSize="15sp" />
+
+
+        </LinearLayout>
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@id/ProfileButt"
+            android:layout_marginTop="30dp"
+            android:text="좋아요 누른 책"
+            android:textSize="15sp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/ProfileButt"
+            android:layout_marginTop="60dp"
+            android:orientation="horizontal">
+
+            <ImageButton
+                android:id="@+id/ReadBook1"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#000000" />
+
+            <ImageButton
+                android:id="@+id/ReadBook2"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#000000" />
+
+            <ImageButton
+                android:id="@+id/ReadBook3"
+                android:layout_width="wrap_content"
+                android:layout_height="130dp"
+                android:layout_margin="10dp"
+                android:layout_weight="1"
+                android:background="#000000" />
+
+        </LinearLayout> -->
+    </RelativeLayout>
+
+</RelativeLayout>
